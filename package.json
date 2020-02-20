@@ -17,7 +17,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "npx budo main.js:bundle.js --live -- -t glslify"
+    "start": "npx budo main.js:bundle.js --live -- -t glslify"    
   },
   "author": "charlie roberts",
   "license": "MIT"
