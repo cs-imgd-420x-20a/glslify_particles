@@ -1,0 +1,24 @@
+{
+  "name": "glslify_particles",
+  "version": "1.0.0",
+  "description": "particles with transform feedback and gl-now",
+  "main": "main.js",
+  "dependencies": {
+    "browserify": "^16.5.0",
+    "budo": "^11.6.3",
+    "gl-now": "^1.4.0",
+    "gl-toy": "^2.0.3",
+    "gl-buffer": "^2.1.2",
+    "glsl-fractal-brownian-noise": "^1.1.0",
+    "glsl-ascii-filter": "^1.0.1",
+    "gl2-now": "^1.4.2",
+    "glsl-noise": "^0.0.0",
+    "glslify": "^7.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "npx budo main.js:bundle.js --live -- -t glslify"
+  },
+  "author": "charlie roberts",
+  "license": "MIT"
+}
